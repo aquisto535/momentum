@@ -1,3 +1,55 @@
 .hidden {
-  display: none;
+	display: none;
+}
+
+body {
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+	margin: 0;
+	min-height: 100vh;
+}
+
+input {
+	background-color: #eee;
+	border: none;
+	border-radius: 3px;
+	padding: 0.5rem 10rem;
+	font-family: inherit;
+	margin: 1rem;
+	outline: none;
+}
+
+input.placeholder {
+	text-align: center;
+}
+
+#todo-form > input {
+	width: 230px;
+}
+
+#login-form > button {
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: none;
+	font-size: 1rem;
+}
+
+#clock {
+	color: #eee;
+	font-size: 60px;
+}
+
+#quote span {
+	color: #fff;
+	font-size: 30px;
+}
+
+#weather {
+	color: #fff;
+	font-size: 30px;
 }
