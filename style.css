@@ -13,9 +13,13 @@ body {
 	min-height: 100vh;
 }
 
+#greeting {
+	color: #eee;
+}
+
 input {
 	background-color: #eee;
-	color: #fff;
+	color: black;
 	border: none;
 	border-radius: 3px;
 	padding: 0.5rem 10rem;
